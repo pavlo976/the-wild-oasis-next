@@ -4,7 +4,9 @@
 import withPlaiceholder from "@plaiceholder/next"
 
 const nextConfig = {
+	transpilePackages: ["@plaiceholder/next"],
 	images: {
+		domains: ["cdn.sanity.io"],
 		remotePatterns: [
 			{
 				protocol: "https",
