@@ -16,12 +16,12 @@ export default async function AboutPage() {
 	const blurredDataUrls = await addBlurredDataUrls([
 		{
 			id: 1,
-			url: "http://localhost:3000/about-1.jpg",
+			url: "https://the-wild-oasis-pavlo-next.netlify.app/about-1.jpg",
 			alt: "Family sitting around a fire pit in front of cabin",
 		},
 		{
 			id: 2,
-			url: "http://localhost:3000/about-2.jpg",
+			url: "https://the-wild-oasis-pavlo-next.netlify.app/about-2.jpg",
 			alt: "Family that manages The Wild Oasis",
 		},
 	])
