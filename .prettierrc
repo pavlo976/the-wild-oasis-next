@@ -1,0 +1,6 @@
+{
+	"bracketSameLine": true,
+	"useTabs": true,
+	"arrowParens": "avoid",
+	"semi": false
+}
